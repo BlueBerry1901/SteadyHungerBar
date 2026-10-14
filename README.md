@@ -5,6 +5,14 @@ bar's positional jitter — the pixel-shake that happens to individual hunger
 icons once saturation hits 0 — without changing any hunger, saturation,
 exhaustion, or food mechanic.
 
+## Background
+
+This mod was made out of curiosity following the Dream speedrun
+controversy, where the hunger bar's pixel-shake was widely discussed as
+one of the signals used to scrutinize footage. Looking into *why* the bar
+jitters at all led to this: a small, targeted fix for the visual effect
+itself, with zero changes to actual hunger/saturation gameplay.
+
 ## What it changes
 
 - **Positional jitter: removed.** Vanilla randomly nudges each hunger icon
