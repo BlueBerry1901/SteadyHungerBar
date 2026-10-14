@@ -1,4 +1,4 @@
-package com.stablehunger.mixin;
+package com.steadyhungerbar.mixin;
 
 import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
 import net.minecraft.client.gui.Gui;

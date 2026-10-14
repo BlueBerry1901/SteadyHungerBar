@@ -1,4 +1,4 @@
-# StableHunger
+# Steady Hunger Bar
 
 A tiny client-side Fabric mod for Minecraft 1.21.10 that removes the hunger
 bar's positional jitter — the pixel-shake that happens to individual hunger
@@ -9,8 +9,8 @@ exhaustion, or food mechanic.
 
 - **Positional jitter: removed.** Vanilla randomly nudges each hunger icon
   by -1/0/+1 pixels vertically once saturation is fully depleted.
-  StableHunger neutralizes that offset so the icons stay in their normal
-  position.
+  Steady Hunger Bar neutralizes that offset so the icons stay in their
+  normal position.
 
 ## What it does NOT change
 
@@ -27,16 +27,16 @@ exhaustion, or food mechanic.
 
 Vanilla's `Gui#renderFood` applies `this.random.nextInt(3) - 1` to each
 icon's vertical position whenever saturation is 0 on a qualifying game
-tick. StableHunger uses a single Mixin (`@ModifyExpressionValue`) scoped to
-that one method, forcing the random draw's result so the net offset is
-always zero — while still consuming the draw from the shared
+tick. Steady Hunger Bar uses a single Mixin (`@ModifyExpressionValue`)
+scoped to that one method, forcing the random draw's result so the net
+offset is always zero — while still consuming the draw from the shared
 `RandomSource`, so the fix has no effect on the independent jitter used by
 low-health hearts or low-air bubbles elsewhere in the same class.
 
 ## Installation
 
 1. Install [Fabric Loader](https://fabricmc.net/use/) for Minecraft 1.21.10.
-2. Drop the StableHunger jar into your `.minecraft/mods` folder.
+2. Drop the Steady Hunger Bar jar into your `.minecraft/mods` folder.
 3. Launch the game — no Fabric API or other mod dependency required.
 
 ## Supported versions
@@ -59,7 +59,7 @@ low-health hearts or low-air bubbles elsewhere in the same class.
 
 ## Reporting bugs
 
-Open an issue at https://github.com/BlueBerry1901/StableHunger/issues
+Open an issue at https://github.com/BlueBerry1901/SteadyHungerBar/issues
 
 ## License
 
