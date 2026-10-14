@@ -59,7 +59,7 @@ low-health hearts or low-air bubbles elsewhere in the same class.
 
 ## Reporting bugs
 
-TBD — will be added once the project has a public issue tracker.
+Open an issue at https://github.com/BlueBerry1901/StableHunger/issues
 
 ## License
 

@@ -7,6 +7,10 @@
   "authors": ["6EQUJ5"],
   "license": "MIT",
   "environment": "client",
+  "contact": {
+    "sources": "https://github.com/BlueBerry1901/StableHunger",
+    "issues": "https://github.com/BlueBerry1901/StableHunger/issues"
+  },
   "mixins": [
     "stablehunger.mixins.json"
   ],
